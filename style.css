@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.controls {
+    margin: 10px 0;
+}
+
+.bar-graph {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    margin-bottom: 20px;
+    border-left: 2px solid #000;
+}
+
+.bar {
+    width: 30px;
+    margin-right: 5px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+}
+
+.bar-rating {
+    background-color: #2196f3;
+}
