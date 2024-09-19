@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Data Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Product Data Input</h1>
+    <div class="input-container">
+        <input type="text" id="product-name" placeholder="Product Name">
+        <input type="number" id="product-price" placeholder="Price" step="0.01">
+        <input type="number" id="product-rating" placeholder="Rating" min="1" max="5" step="0.1">
+        <button id="add-product">Add Product</button>
+    </div>
+
+    <div class="controls">
+        <button id="sort-price">Sort by Price</button>
+        <button id="sort-rating">Sort by Rating</button>
+    </div>
+
+    <h2>Price Bar Graph</h2>
+    <div id="price-graph" class="bar-graph"></div>
+
+    <h2>Rating Bar Graph</h2>
+    <div id="rating-graph" class="bar-graph"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
