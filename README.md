@@ -3,7 +3,7 @@ Create a web page where users can input product data, and the application dynami
  
 
 ### Detailed Explanation 
-
+  
 # Topics
    
 DOM Manipulation
