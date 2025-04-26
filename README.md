@@ -7,8 +7,7 @@ Create a web page where users can input product data, and the application dynami
 # Topics
    
 DOM Manipulation
-Higher-Order Functions (HOFs)
-CSS Styling
+Higher-Order Functions (HOFs) 
 Event Handling
 Dynamic Data Updating
 Problem Statement
